@@ -45,7 +45,7 @@ The REST API to access the web app listed below.
     {"id":"3c566447-487d-44bb-8bb3-7ca576ae3c89","name":"xyz","address":"manchester","city":"manchester","country":"UK","beneficial_owners":["Tim Cook"]}
 ## Add beneficial owner(s) of the company
 ### Request
-`POST  /companies/addowners
+`POST  /companies/addowners`
 
     curl -H 'Content-Type: application/json' -X POST --data '{"name":"xyz", "beneficial_owners":["Stephey Fry"]}' http://localhost:8080/companies/addowners
 ### Response
