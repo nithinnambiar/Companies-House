@@ -1,7 +1,9 @@
 # Companies-House
 
-This is a spring boot web application using REST apis to manage companies
+This is a spring boot web application using REST APIs to manage companies
 
+  ## Prerequistes
+  Requires java 8 or higher version.
 ## build
 
 `mvn clean install`
